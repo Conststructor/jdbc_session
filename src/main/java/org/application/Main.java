@@ -16,7 +16,7 @@ public class Main {
             System.out.printf("%s%n",conok);
 
 
-            DaoJdbc jdbc= new DaoJdbc(connection);
+            Jdbc jdbc= new Jdbc(connection);
             jdbc.tasks();
 
         } catch (SQLException e) {

@@ -3,11 +3,11 @@ package org.application;
 import java.sql.*;
 import java.util.Scanner;
 
-public class DaoJdbc {
+public class Jdbc {
     private final Connection connection;
     private String sql;
 
-    public DaoJdbc(Connection connection) {
+    public Jdbc(Connection connection) {
         this.connection = connection;
     }
 
